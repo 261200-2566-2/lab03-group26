@@ -1,14 +1,23 @@
 import javax.lang.model.element.Name;
 
 public class Character {
+    //level of character.
     private int level;
+    //health point of character.
     private double hp;
+    //maximum health point of character.
     private double max_hp;
+    //power of character.
     private double mana;
+    //maximum power of character.
     private double max_mana;
+    //speed that character can move.
     double runSpeed;
+    //maximum speed that character can move.
     double max_runSpeed;
+    //The level of power the character can attack.
     double damage;
+
     private Shield shield;
     private Sword sword;
     private boolean sword_equip;
