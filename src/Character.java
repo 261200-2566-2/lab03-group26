@@ -168,8 +168,6 @@ public class Character {
         b.attack(a);
         a.status();
         b.status();
-
-
     }
 
 
