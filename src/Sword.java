@@ -1,7 +1,9 @@
 public class Sword {
+    // Level of Sword
     private int level;
+    // Sword's attack value
     private int atk;
-    
+
     public void setRunSpeed(Character c) {
         c.runSpeed = c.max_runSpeed - (30+10*(level*0.1));
     }

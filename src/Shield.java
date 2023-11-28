@@ -1,5 +1,7 @@
-public class Shield{
+public class Shield {
+    // Level of Shield
     private int level;
+    // Shield's defense value
     private int def;
 
     public void setRunSpeed(Character c) {
@@ -25,4 +27,3 @@ public class Shield{
         return def*(1+0.05*level);
     }
 }
-
