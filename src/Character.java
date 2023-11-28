@@ -166,10 +166,9 @@ public class Character {
             a.shieldLevelUp();
         }
         b.attack(a);
+        a.attack(b);
         a.status();
         b.status();
     }
-
-
 
 }
